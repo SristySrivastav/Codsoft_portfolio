@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><span>Port</span>folio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#subjects">Interested Subjects</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-menu" id="menu-icon"></div> 
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Sristy Srivastav</span><br>Web Developer</h1>
+            <p>I love working on exciting web development projects and making websites function beautifully.</p>
+            <div class="btn-box">
+                <a href="#" class="btn-1">Hire Me</a>
+                <a href="https://drive.google.com/file/d/10-GRF-ECZo5g7gSC0iwNOoFhbdVxSkq7/view?usp=sharing"
+                    class="btn-2">View Resume</a>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="self pic.jpg" alt="Sristy Srivastav">
+        </div>
+    </section>
+
+
+    <section class="certifications" id="certifications">
+        <h2 class="heading">My <span>Certifications</span></h2>
+        <div class="certifications-container">
+            <div class="certification-item">
+                <h3>HTML - BY EJ Media</h3>
+                <a href="https://drive.google.com/file/d/1fExmJ_anksSopQHcZDx1NfAX-Eh10OTF/view?usp=sharing"
+                    class="btn certification-button">View Certificate</a>
+            </div>
+            <div class="certification-item">
+                <h3>IT Essential - Cisco</h3>
+                <a href="https://drive.google.com/file/d/1fI2VMsqo8RfLoN3WZI9g_ApcdNNjPZaG/view?usp=sharing"
+                    class="btn certification-button">View Certificate</a>
+            </div>
+            <div class="certification-item">
+                <h3>KYP - Bihar Skill Management System</h3>
+                <a href="https://drive.google.com/file/d/1fNl4Dld9WZ4wV2wUMULbYiQetcvrMwYX/view?usp=sharing"
+                    class="btn certification-button">View Certificate</a>
+            </div>
+            <div class="certification-item">
+                <h3>Python 3.4.3 Training - BY Spoken Tutorial IIT Bombay</h3>
+                <a href="https://drive.google.com/file/d/1fP-XmPiMalrNdHuN5qGkNXyvhLugHy7v/view?usp=sharing"
+                    target="_blank" class="btn certification-button" tag>View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="subjects" id="subjects">
+        <h2 class="heading">Interested <span>Subjects</span></h2>
+        <ul class="subjects-list">
+            <li>DBMS</li>
+            <li>Operating System</li>
+            <li>DSA</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="farmer.jpg" alt="Farmer">
+                <h3>Farmer</h3>
+                <p>This project concentrates on building a website
+                    for a farmer. The website is based on html,CSS. It
+                    focuses on giving all the information
+                    about farm and it's techniques.
+                    The website gives details of agriculture with
+                    pictures and also supports a farmer feedback system.</p>
+            </div>
+            <div class="project">
+                <img src="quizai.jpg" alt="Quiz AI">
+                <h3>Quiz AI</h3>
+                <p>Objective: To make study more easier
+                    Tools/Technologies Used: Next.js, Gemini AI , React , NLP , node.js
+                    Key Outcomes: Simplified Quiz Creation , Improved User
+                    Experience , Reliability and Security</p>
+            </div>
+            <div class="project">
+                <img src="careportal.jpg" alt="Care Portal">
+                <h3>Care Portal</h3>
+                <p>A care portal website improves healthcare accessibility,
+                    communication, and patient management.
+                    Empowers patients by providing:
+                    Easy access to medical records.
+                    Appointment scheduling.
+                    Direct communication with healthcare providers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="education-container">
+            <div class="education-item">
+                <img src="cbse_logo.png" alt="CBSE Board Logo" class="board-logo"> 
+                <h3>Matriculation</h3>
+                <p>KCI Rajapakar (CBSE Board)<br>2020-2021</p>
+            </div>
+            <div class="education-item">
+                <img src="sbte_logo.png" alt="SBTE Board Logo" class="board-logo"> 
+                <h3>Diploma in Computer Science & Engineering</h3>
+                <p>NGP Patna-13 (SBTE Board)<br>2022 - 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p class="copyright">© 2025 Sristy Srivastav | All Rights Reserved</p>
+    </footer>
+
+    <script>
+                     
+        document.getElementById('menu-icon').addEventListener('click', function () {
+            alert('Hamburger menu clicked!'); 
+        });
+    </script>
+
+</body>
+
+</html>
